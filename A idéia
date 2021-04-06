@@ -1,0 +1,211 @@
+
+
+OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 1.4]
+
+Documento de Especificação de Requisitos
+Sistema:Encomenda Ciclísticas
+
+UFG - Universidade Federal de Goiás
+
+
+
+Prof. 
+Grupo:
+
+
+
+
+1. INTRODUÇÃO
+1.1 Propósito do documento de requisitos
+Esse documento vai estabelecer os requisitos do sistema Encomenda Ciclísticas®.
+Definir os interessados no sistema e as suas necessidades que devem ser satisfeitas pelo sistema a ser desenvolvido;
+Derivar os casos de uso e requisitos do sistema de forma a orientar a equipe de que será responsável pelo seu desenvolvimento;
+
+1.2 Escopo do produto
+O produto Encomenda Ciclística é um sistema composto por um app gratuito para smartphone que servirá como um menu/interface para conectar alguém que queira fazer alguma entrega
+de encomenda num raio de até 5 km com qualquer ciclista cadastrado na plataforma e que esteja num raio próximo da retirada da encomenda. Contará também com um site
+para divulgação do produto, linkando as redes sociais do sistema, bem como aba com telefones para contato e sugestões.
+
+1.3 Definições, acrônimos e abreviações
+App/aplicativo - Um aplicativo móvel ou aplicação móvel, conhecido normalmente por seu nome abreviado app, é um software desenvolvido para ser instalado em um dispositivo eletrônico móvel.
+Smartphone - O smartphone é um celular com tecnologias avançadas, o que inclui programas executados um sistema operacional, equivalente aos computadores.
+Solicitantes - Qualquer pessoa cadastrada que queira enviar um produto por meio do sistema.
+Ciclistas- Qualquer pessoa  cadastrada que queira trabalhar como entregador no sistema.
+Software do mobile/Aplicativo do mobile - Aplicativo que será instalado no smartphone do usuário pelo próprio usuário.
+Google Maps - Mapa online fiel ao mapa do mundo real disponibilizado pela empresa Google.
+Software do hardware -  Programa/software situado/instalado no hardware/console.
+Prioridade alta - Requisito essencial.
+Prioridade média -  Requisito importante.
+Prioridade baixa - Requisito desejável.
+
+
+1.4 Referências
+Deliveroo(https://deliveroo.co.uk/), iFood(https://www.ifood.com.br/), Loggi(https://www.loggi.com/)
+
+1.5 Visão geral do restante do documento
+No tópico dois (2) abordaremos detalhadamente as descrições do produto e as características do usuário, e no tópico três (3) informaremos sobre os requisitos do sistema.	
+2. DESCRIÇÃO GERAL
+2.1 Perspectiva do Produto
+O produto permitirá a criação de sonhos. Isto será feito a partir de um aplicativo mobile grátis (onde o usuário só pagará pelo tempo sonhado (com o fornecimento da touca)) e com a ajuda de uma touca que estará na cabeça do usuário para que este possa sonhar o sonho criado/desejado. O sistema não terá nenhuma consequência para o mundo real.
+2.2 Funções do produto 
+O produto terá as funções de cadastro do usuário, montar um sonho, colocar créditos em sua conta, fazer login por redes sociais, marcar sonho como favorito em seu histórico de sonhos, editar o nome do sonho em seu histórico de sonhos, editar descrição do sonho em seu histórico de sonhos, editar dados cadastrais, buscar sonho em seu histórico dos sonhos, cadastrar íris, excluir conta, compartilhar sonho em redes sociais, salvar vídeo do seu sonho, remover sonho dos histórico de sonhos, reviver sonho, abortar sonho, cadastrar saúde, ver quanto tempo está cadastrado no sistema, ver quanto tempo já sonhou.
+2.3 Características do usuário
+Qualquer usuário, tendo idade superior à 4 anos de idade, poderá utilizar o produto. Caso o usuário tenha menos que 16 anos de idade, este deverá ter a permissão dos pais/responsáveis (utilização da íris para controle) para utilizar o produto, não trazendo nenhum trauma a criança/adolescente com sonhos inadequados. O usuário sendo maior de idade, poderá utilizar o produto sem a permissão/controle de terceiros.
+2.4 Restrições Gerais
+Restrição de um software que sincronize todos os dados no smartphone do cliente para sugestões de sonho. Restrições de um hardware que armazene dados e mande para outro hardware usado na cabeça com eletrodos (outra limitação). 
+2.5 Suposições e Dependências
+O sistema é todo fechado, ou seja, só precisa de seus componentes para operar (hardware, software, banco de dados, etc).
+3. REQUISITOS DO SISTEMA
+3.1 Requisitos Funcionais (RF)
+[RF01]: O software do mobile permitirá que o usuário realize um cadastro com os seguintes dados: Nome, Idade, CPF, e-mail, Endereço, Senha.
+Prioridade: Alta	Fonte: Administrador do sistema
+[RF02]: Para o usuário menor de idade, haverá um cadastramento do seu responsável no software do mobile.
+Prioridade: Alta	Fonte: Administrador/usuário do sistema
+[RF03]: O software do mobile permitirá o usuário logar pelo Facebook. 
+Prioridade: Média	Fonte: Usuário do sistema
+[RF04]: O software do mobile permitirá o usuário logar pelo Instagram. 
+Prioridade: Média	Fonte: Usuário do sistema
+[RF05]: O software do mobile permitirá o usuário logar pelo Twitter. 
+Prioridade: Média	Fonte: Usuário do sistema
+[RF06]: O software do mobile permitirá o usuário logar por sua conta do Google. 
+Prioridade: Média	Fonte: Usuário do sistema
+[RF07]: O software do mobile permitirá que o usuário coloque crédito em sua conta por meio do Paypal.
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF08]: O software do mobile permitirá que o usuário coloque crédito em sua conta meio de Boleto Bancário.
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF09]: O software do mobile permitirá que o usuário coloque crédito em sua conta por meio de Cartão de Crédito.
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF10]: O software do mobile permitirá que o usuário coloque crédito em sua conta por meio de um resgate de código.
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF11]: O software do mobile permitirá que o usuário acesse o tempo em que ele está cadastrado no sistema.
+Prioridade: Baixa	Fonte: Usuário do sistema
+[RF12]: O software do mobile permitirá que o usuário acesse o tempo de sonho criado pelo Dream Action.
+Prioridade: Baixa	Fonte: Usuário do sistema
+[RF13]: No momento da construção do sonho, o usuário poderá nomear o sonho.
+Prioridade: Média	Fonte: Youtube
+[RF14]: No momento da construção do sonho, o usuário poderá adicionar uma descrição ao sonho.
+Prioridade: Média	Fonte: Youtube
+[RF15]: O software do mobile permitirá que o usuário renomeie o sonho no histórico de sonhos.
+Prioridade: Baixa	Fonte: Youtube
+[RF16]: O software do mobile permitirá que o usuário edite a descrição do sonho no histórico de sonhos. 
+Prioridade: Baixa	Fonte: Youtube
+[RF17]: O software do mobile permitirá que o usuário marque um sonho como favorito no histórico de sonhos
+Prioridade: Baixa	Fonte: Youtube
+[RF18]: No histórico de sonhos, a busca pelos sonhos já criados será filtrado por: Recente, Duração Maior, Duração Menor, Favoritos, Palavras chaves (que será comparada ao nome e não da descrição do sonho). Obs: Não necessariamente nessa ordem.
+Prioridade: Alta	Fonte: Usuário do sistema
+[RF19]: O software do mobile permitirá que o usuário edite todos os dados do seu cadastro.
+Prioridade: Alta	Fonte: Padrão de sistemas de cadastro
+[RF20]: O software do mobile permitirá que o usuário compartilhe um sonho em suas redes sociais a partir do histórico de sonhos.
+Prioridade: Baixa	Fonte: Youtube
+[RF21]: O software do mobile permitirá que o usuário cadastre sua íris.
+Prioridade: Alta	Fonte: Sistema do produto Samsung Galaxy S8 
+[RF22]: Após scannear a íris do usuário para cadastro ,haverá um reescaneamento da íris para confirmar a veracidade da íris.
+Prioridade: Alta	Fonte: Sistema do produto Samsung Galaxy S8
+[RF23]: O software do mobile permitirá que o usuário exclua sua conta.
+Prioridade: Alta	Fonte: Sistema Facebook
+[RF24]: O software do mobile permitirá que o usuário compartilhe o sonho que acabou de sonhar em suas redes sociais.
+Prioridade: Baixa	Fonte: Facebook/Youtube
+[RF25]: O software do mobile armazenará o vídeo do sonho que o usuário acabou de sonhar, caso ele queira.
+Prioridade: Média	Fonte: League of Legends
+[RF26]: O software do mobile permitirá que o usuário cadastre sua saúde.
+Prioridade: Alta	Fonte: Patrocinador do sistema
+[RF27]: Para que o usuário reviva um sonho, o software do mobile verificará se o usuário possui créditos para pagar o sonho desejado. Maneiras de obter créditos estão nos requisitos [RF07]-[RF10].
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF28]: O software do mobile permitirá que o usuário remova o sonho do histórico dos sonho.
+Prioridade: Baixa	Fonte: Google Chrome
+[RF29]: O software do mobile permitirá que o usuário reviva um sonho a partir do histórico de sonhos.
+Prioridade: Média	Fonte: Google Chrome
+[RF30]: No momento da construção do sonho, o software do mobile irá sugerir sonhos para o usuário com base nos mais populares.
+Prioridade: Média	Fonte: Youtube
+[RF31]: No momento da construção do sonho, o software do mobile irá sugerir sonhos para o usuário com base no percurso pelo Google Maps do usuário.
+Prioridade: Média	Fonte: Youtube
+[RF32]: No momento da construção do sonho, o software do mobile irá sugerir sonhos para o usuário com base em seu histórico de sonhos.
+Prioridade: Média	Fonte: Youtube
+[RF33]: O usuário poderá abortar o sonho a qualquer momento. 
+Prioridade: Alta	Fonte: Sword Art Online (Anime)
+[RF34]: Caso o usuário não informe um nome para o sonho ([RF13]), o sistema colocará um valor default.
+Prioridade: Média	Fonte: Administrador do sistema
+[RF35]: O software da touca medirá a intensidade do sonho de acordo com dados médicos informados no cadastro de saúde([RF26]), o algoritmo medirá como Normal ou Intenso.
+Prioridade: Alta	Fonte: Patrocinador do sistema
+[RF36]: No cadastro de saúde, o usuário informará se possui algum problema de saúde como problemas cardíacos, respiratórios e cirurgias sendo informado se foi recente ou não.
+Prioridade: Alta	Fonte: Lei Nº 6765 de 05 de maio de 2014.
+
+[RF37]: Se os batimentos e pressão saírem da normalidade([RF49]) de acordo com o cadastro da saúde durante o sonho (apresentando risco ao usuário), o sonho pelo software do mobile.
+Prioridade: Alta	Fonte: Sword Art Online (Anime)
+[RF39]: Quando o usuário informar a duração do sonho na construção do sonho, o software do mobile verificará se o usuário possui créditos para pagar o sonho desejado. Maneiras de obter créditos estão nos requisitos [RF07]-[RF10].
+Prioridade: Alta	Fonte: Steam, Origin, Level Up
+[RF39]: Enquanto imerso no sonho, o usuário poderá acessar as horas do mundo real. 
+Prioridade: Baixa	Fonte: Sword Art Online (Anime)
+[RF40]: Enquanto imerso no sonho, o usuário poderá acessar o tempo que ele está imerso. 
+Prioridade: Baixa	Fonte: Sword Art Online (Anime)
+[RF41]: O software do mobile permitirá que o usuário acesse seu histórico de sonhos.
+Prioridade: Alta	Fonte: Google Chrome
+	[RF42]: O software do mobile permitirá que o usuário construa um sonho.
+Prioridade: Alta	Fonte: Usuário do sistema
+[RF43]: Para iniciar o sonho, será necessário a confirmação do usuário.
+Prioridade: Alta	Fonte: Administrador do sistema
+[RF44]: Para excluir sua conta, será necessário a confirmação do usuário.
+Prioridade: Alta	Fonte: Administrador do sistema
+[RF45]: A confirmação do usuário poderá ser feita por meio da sua senha.
+Prioridade: Alta	Fonte: Sistema Facebook
+[RF46]: A confirmação do usuário poderá ser feita por meio do reconhecimento da sua íris.
+Prioridade: Alta	Fonte: Sistema Facebook
+[RF47]: O usuário poderá recuperar sua senha, para que assim ele possa acessar sua conta mesmo tendo perdido ou esquecido sua senha.
+	Prioridade: Alta	Fonte: Usuário do Sistema
+[RF48]: O email cadastrado na conta do usuário receberá uma mensagem do software do mobile contendo sua senha, quando o usuário solicitar a recuperação da mesma.
+	Prioridade: Alta	Fonte: Usuário do Sistema
+[RF49]: No momento do sonho a touca ficará acompanhando os batimentos cardíacos e a pressão do usuário.
+	Prioridade: Alta	Fonte: Sword Art Online (Anime)
+[RF50]: A touca medirá batimento cardíaco e pressão arterial no período informado no requisito [RNF19]. 
+	Prioridade: Alta	Fonte: Sword Art Online (Anime)
+[RF51]: A touca salvará as variações de batimento e pressão no cadastro de saúde do usuário.
+	Prioridade: Alta	Fonte: Sword Art Online (Anime)
+[RF52]: A touca produzirá estímulos calmantes para o usuário não mexer seu corpo físico durante o sonho.
+	Prioridade: Alta	Fonte: Sword Art Online (Anime)
+3.2 Requisitos Não Funcionais (RNF)
+	Requisitos Não Funcionais do Produto
+		Requisitos de Facilidade de Uso		
+Requisitos de Desempenho
+[RNF01]: O banco de dados com os sonhos criados deve ser atualizado em tempo real.
+[RNF02]: O histórico do cliente deve ser atualizado a cada utilização do sistema.
+[RNF03]: A conexão entre o software do mobile e a touca deve ser estável de modo que não haja travamentos.
+[RNF04] : O sonho deve começar no máximo em 30 segundos.
+[RNF05]: Ao abrir o aplicativo, o tempo máximo para carregar deve ser de 7 segundos.
+[RNF06]:O tempo máximo deve ser de 1 segundo para a passagem de páginas do aplicativo.
+Requisitos de Confiabilidade
+[RNF07]:Ao ser executado,o aplicativo não afetará o funcionamento dos outros aplicativos.
+[RNF08]: O sistema deve permanecer no ar todos os dias 24 horas por dia, exceto na ocorrência de manutenções.
+[RNF09]: Havendo manutenção, os usuários deverão ser avisados no mínimo 24 horas antes da ocorrência da manutenção. 
+Requisitos de Portabilidade
+[RNF10]: O sistema deve funcionar em dispositivos móveis com IOS e Android.
+	Requisitos Não Funcionais Organizacionais
+		Requisitos de Entrega
+[RNF11]: Quando o software do mobile encerrar o sonho sem o consentimento do usuário ([RF37]), ele apresentará em formato pdf os motivos detalhados do porquê da interrupção em até 24 horas.
+[RNF12]: O software do mobile terá no máximo uma hora para enviar o email para o usuário com sua senha([RF48]).
+Requisitos de Implementação
+[RNF13]:A versão mínima para ser implementado o aplicativo no IOS é a atual e no android é a 5.0.
+[RNF14]: No Intenso ([RF35]) o software do mobile emitirá na tela do celular do usuário no momento de projetar o sonho um aviso de advertência do risco que poderá ocorrer.
+[RNF15]: O valor default colocado pelo sistema([RF33]) será a data e a hora do sonho.
+[RNF16]: Quando o usuário imergir no sonho, ele receberá uma mensagem informando que aquilo é um sonho, não o mundo real.
+[RNF17]: Haverá uma verificação para que não se repita o CPF já usado no cadastramento do software.
+[RNF18]: O software do mobile só sincronizará com a touca caso o usuário tenha cadastrado dados da sua saúde em sua conta.
+[RNF19]: No cadastro da saúde , o usuário deverá utilizar a touca por 1 hora sem interrupção.
+[RNF20]: Utilizando o braço esquerdo deslizando de cima para baixo (não fisicamente, mas sim com sua consciência, no sonho), disponibilizará, entre outras opções, a opção de saída do sonho.
+[RNF21]: O software do mobile emitirá um aviso na tela sobre o [RNF29] ao cadastrar sua saúde.
+[RNF22]: Caso o usuário tenha crédito o suficiente para custear o sonho ([RF29] ou [RF27]), o software do aplicativo mobile permitirá que o usuário prossiga com a construção do sonho.
+[RNF23]: Os dados para a criação do ambiente virtual do sonho será transmitido do software do aplicativo para a touca via wireless.
+Requisitos de Padrões
+Requisitos Não Funcionais Externos
+		Requisitos de Interoperabilidade
+[RNF24]: O software do mobile utilizará a câmera frontal do smartphone do usuário para escanear a íris.
+[RNF25]: O software do mobile armazenará o histórico de sonhos criados na própria unidade de armazenamento do smartphone do usuário.
+[RNF26]: O download do vídeo do sonho ([RF25]) será armazenado na própria unidade de armazenado do smartphone do usuário.
+Requisitos Éticos
+[RNF27]: Para o cadastramento no software do mobile, a idade mínima é 4 anos.
+[RNF28]: Nenhum dado da saúde do cliente poderá ser divulgado.
+[RNF29]: Ao informar dados sobre sua saúde, o usuário se compromete totalmente com a veracidade das informações dispostas por ele, assumindo total responsabilidade/consequência sobre estas informações.
+                    	[RNF30]:Todos os dados do cadastro devem ser criptografados.
+Requisitos de Segurança	
+[RNF31]: As operações de pagamento devem ter criptografia de ponta-a-ponta.
+[RNF32]: A senha no momento do cadastro deve ter no mínimo 8 dígitos, sendo um deles um numérico.
+[RNF33]: O sistema não poderá permitir cache de senha, salvamento de senha ou qualquer outro recurso do tipo. A cada novo acesso, a autenticação deverá ser realizada novamente, de maneira integral.
