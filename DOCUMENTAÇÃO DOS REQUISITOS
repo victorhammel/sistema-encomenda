@@ -1,6 +1,6 @@
 
 
-OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 1.4]
+OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 2.2]
 
 Documento de Especificação de Requisitos
 Sistema:Encomenda Ciclísticas
@@ -44,13 +44,19 @@ Deliveroo(https://deliveroo.co.uk/), iFood(https://www.ifood.com.br/), Loggi(htt
 
 1.5 Visão geral do restante do documento
 No tópico dois (2) abordaremos detalhadamente as descrições do produto e as características do usuário, e no tópico três (3) informaremos sobre os requisitos do sistema.	
+
 2. DESCRIÇÃO GERAL
+
+
 2.1 Perspectiva do Produto
-O produto permitirá a criação de sonhos. Isto será feito a partir de um aplicativo mobile grátis (onde o usuário só pagará pelo tempo sonhado (com o fornecimento da touca)) e com a ajuda de uma touca que estará na cabeça do usuário para que este possa sonhar o sonho criado/desejado. O sistema não terá nenhuma consequência para o mundo real.
+O produto permitirá que qualquer pessoa utilize o sistema para enviar qualquer tipo de produto. Ela informará o tipo do produto, seu peso, dimensões,e após
+confirmar o local da entrega, a "viagem" aparecerá para os ciclistas da plataforma. O pagamento do ciclista será feito diretamente na plataforma através do Ebanx.
+Ele poderá usar também o Google Maps integrado no sistema para guiá-lo até o local da entrega.
+
 2.2 Funções do produto 
-O produto terá as funções de cadastro do usuário, montar um sonho, colocar créditos em sua conta, fazer login por redes sociais, marcar sonho como favorito em seu histórico de sonhos, editar o nome do sonho em seu histórico de sonhos, editar descrição do sonho em seu histórico de sonhos, editar dados cadastrais, buscar sonho em seu histórico dos sonhos, cadastrar íris, excluir conta, compartilhar sonho em redes sociais, salvar vídeo do seu sonho, remover sonho dos histórico de sonhos, reviver sonho, abortar sonho, cadastrar saúde, ver quanto tempo está cadastrado no sistema, ver quanto tempo já sonhou.
-2.3 Características do usuário
-Qualquer usuário, tendo idade superior à 4 anos de idade, poderá utilizar o produto. Caso o usuário tenha menos que 16 anos de idade, este deverá ter a permissão dos pais/responsáveis (utilização da íris para controle) para utilizar o produto, não trazendo nenhum trauma a criança/adolescente com sonhos inadequados. O usuário sendo maior de idade, poderá utilizar o produto sem a permissão/controle de terceiros.
+O produto terá as funções de cadastro do usuário,cadastro do ciclista, pagamento com cartão de crédito no sistema, integração com Google Maps 
+e chat com o solicitante do envio da encomenda.
+
 2.4 Restrições Gerais
 Restrição de um software que sincronize todos os dados no smartphone do cliente para sugestões de sonho. Restrições de um hardware que armazene dados e mande para outro hardware usado na cabeça com eletrodos (outra limitação). 
 2.5 Suposições e Dependências
