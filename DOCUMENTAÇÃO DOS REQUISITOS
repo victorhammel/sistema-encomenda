@@ -1,6 +1,6 @@
 
 
-OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 2.2]
+OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 3.1]
 
 Documento de Especificação de Requisitos
 Sistema:Encomenda Ciclísticas
@@ -97,6 +97,22 @@ Prioridade: Alta	Fonte: Sistema Facebook
 	Prioridade: Alta	Fonte: Usuário do Sistema
 [RF15]: O email cadastrado na conta do usuário receberá uma mensagem do software do mobile contendo sua senha, quando o usuário solicitar a recuperação da mesma.
 	Prioridade: Alta	Fonte: Usuário do Sistema
+[RF16]: O usuário deverá colocar o local(cep,número,rua) do endereço para entrega.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF17]: O usuário deverá colocar o nome e telefone de quem receberá a encomenda.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF18]: O usuário deverá colocar o peso e medidas do produto a ser entregue.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF19]: O usuário deverá colocar a observação quando se tratar de um produto frágil ou que deva ter algum cuidado especial para o transporte do mesmo.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF20]: O usuário deverá colocar o nome de quem receberá a encomenda.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF21]: O sistema usará as localizações atuais enquanto o ciclista estiver em trânsito, para que o usuário possa acompanhar.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF22]: O sistema só aceitará concluir a entrega, após o entregador tirar uma foto da encomenda entregue para o cliente.
+Prioridade: Alta	Fonte: Usuário do Sistema
+[RF23]: O sistema deve calcular o valor da entrega de acordo com a distância percorrida pelo ciclista.
+Prioridade: Alta	Fonte: Usuário do Sistema
 	
 	
 3.2 Requisitos Não Funcionais (RNF)
