@@ -1,7 +1,3 @@
-
-
-OBS [DOCUMENTO ESTÁ SENDO ATUALIZADO AOS POUCOS, BASEANDO-SE NUM TRABALHO DE ENGENHARIA DE REQUISITOS, PORTANTO, CONSIDERAR APENAS ATÉ O PASSO 3.1]
-
 Documento de Especificação de Requisitos
 Sistema:Encomenda Ciclísticas
 
@@ -119,46 +115,43 @@ Prioridade: Alta	Fonte: Usuário do Sistema
 	Requisitos Não Funcionais do Produto
 		Requisitos de Facilidade de Uso		
 Requisitos de Desempenho
-[RNF01]: O banco de dados com os sonhos criados deve ser atualizado em tempo real.
+[RNF01]: O banco de dados  deve ser atualizado em tempo real.
 [RNF02]: O histórico do cliente deve ser atualizado a cada utilização do sistema.
-[RNF03]: A conexão entre o software do mobile e a touca deve ser estável de modo que não haja travamentos.
-[RNF04] : O sonho deve começar no máximo em 30 segundos.
-[RNF05]: Ao abrir o aplicativo, o tempo máximo para carregar deve ser de 7 segundos.
-[RNF06]:O tempo máximo deve ser de 1 segundo para a passagem de páginas do aplicativo.
+[RNF03] : O envio do produto deve ter um pazo, assim que o ciclista aceita a entrega.
+[RNF04]: Ao abrir o aplicativo, o tempo máximo para carregar deve ser de 7 segundos.
+[RNF05]:O tempo máximo deve ser de 1 segundo para a passagem de páginas do aplicativo.
+
 Requisitos de Confiabilidade
-[RNF07]:Ao ser executado,o aplicativo não afetará o funcionamento dos outros aplicativos.
-[RNF08]: O sistema deve permanecer no ar todos os dias 24 horas por dia, exceto na ocorrência de manutenções.
-[RNF09]: Havendo manutenção, os usuários deverão ser avisados no mínimo 24 horas antes da ocorrência da manutenção. 
+[RNF06]:Ao ser executado,o aplicativo não afetará o funcionamento dos outros aplicativos.
+[RNF07]: O sistema deve permanecer no ar todos os dias 24 horas por dia, exceto na ocorrência de manutenções.
+[RNF08]: Havendo manutenção, os usuários deverão ser avisados no mínimo 24 horas antes da ocorrência da manutenção.
+
 Requisitos de Portabilidade
-[RNF10]: O sistema deve funcionar em dispositivos móveis com IOS e Android.
-	Requisitos Não Funcionais Organizacionais
-		Requisitos de Entrega
-[RNF11]: Quando o software do mobile encerrar o sonho sem o consentimento do usuário ([RF37]), ele apresentará em formato pdf os motivos detalhados do porquê da interrupção em até 24 horas.
-[RNF12]: O software do mobile terá no máximo uma hora para enviar o email para o usuário com sua senha([RF48]).
+[RNF09]: O sistema deve funcionar em dispositivos móveis com IOS e Android.
+
+
+Requisitos Não Funcionais Organizacionais
+	Requisitos de Entrega
+[RNF10]: O software do mobile terá no máximo uma hora para enviar o email para o usuário com sua senha.
+
 Requisitos de Implementação
-[RNF13]:A versão mínima para ser implementado o aplicativo no IOS é a atual e no android é a 5.0.
-[RNF14]: No Intenso ([RF35]) o software do mobile emitirá na tela do celular do usuário no momento de projetar o sonho um aviso de advertência do risco que poderá ocorrer.
-[RNF15]: O valor default colocado pelo sistema([RF33]) será a data e a hora do sonho.
-[RNF16]: Quando o usuário imergir no sonho, ele receberá uma mensagem informando que aquilo é um sonho, não o mundo real.
-[RNF17]: Haverá uma verificação para que não se repita o CPF já usado no cadastramento do software.
-[RNF18]: O software do mobile só sincronizará com a touca caso o usuário tenha cadastrado dados da sua saúde em sua conta.
-[RNF19]: No cadastro da saúde , o usuário deverá utilizar a touca por 1 hora sem interrupção.
-[RNF20]: Utilizando o braço esquerdo deslizando de cima para baixo (não fisicamente, mas sim com sua consciência, no sonho), disponibilizará, entre outras opções, a opção de saída do sonho.
-[RNF21]: O software do mobile emitirá um aviso na tela sobre o [RNF29] ao cadastrar sua saúde.
-[RNF22]: Caso o usuário tenha crédito o suficiente para custear o sonho ([RF29] ou [RF27]), o software do aplicativo mobile permitirá que o usuário prossiga com a construção do sonho.
-[RNF23]: Os dados para a criação do ambiente virtual do sonho será transmitido do software do aplicativo para a touca via wireless.
+[RNF11]:A versão mínima para ser implementado o aplicativo no IOS é a atual e no android é a 5.0.
+[RNF12]: Haverá uma verificação para que não se repita o CPF já usado no cadastramento do software.
+
+
 Requisitos de Padrões
 Requisitos Não Funcionais Externos
-		Requisitos de Interoperabilidade
-[RNF24]: O software do mobile utilizará a câmera frontal do smartphone do usuário para escanear a íris.
-[RNF25]: O software do mobile armazenará o histórico de sonhos criados na própria unidade de armazenamento do smartphone do usuário.
-[RNF26]: O download do vídeo do sonho ([RF25]) será armazenado na própria unidade de armazenado do smartphone do usuário.
+
+Requisitos de Interoperabilidade
+[RNF13]: O software do mobile utilizará a câmera traseira do smartphone do ciclista para registrar a entrega efetuada.
+[RNF14]: O software do mobile armazenará o histórico de entregas na própria unidade de armazenamento do smartphone do usuário.
+
 Requisitos Éticos
-[RNF27]: Para o cadastramento no software do mobile, a idade mínima é 4 anos.
-[RNF28]: Nenhum dado da saúde do cliente poderá ser divulgado.
-[RNF29]: Ao informar dados sobre sua saúde, o usuário se compromete totalmente com a veracidade das informações dispostas por ele, assumindo total responsabilidade/consequência sobre estas informações.
-                    	[RNF30]:Todos os dados do cadastro devem ser criptografados.
+[RNF15]: Para o cadastramento no software do mobile, a idade mínima é 16 anos.
+[RNF16]: Nenhum dado do usuário deverá ser divulgado.
+[RNF17]:Todos os dados do cadastro devem ser criptografados.
+
 Requisitos de Segurança	
-[RNF31]: As operações de pagamento devem ter criptografia de ponta-a-ponta.
-[RNF32]: A senha no momento do cadastro deve ter no mínimo 8 dígitos, sendo um deles um numérico.
-[RNF33]: O sistema não poderá permitir cache de senha, salvamento de senha ou qualquer outro recurso do tipo. A cada novo acesso, a autenticação deverá ser realizada novamente, de maneira integral.
+[RNF18]: As operações de pagamento devem ter criptografia de ponta-a-ponta.
+[RNF19]: A senha no momento do cadastro deve ter no mínimo 8 dígitos, sendo um deles numérico.
+[RNF20]: O sistema não poderá permitir cache de senha, salvamento de senha ou qualquer outro recurso do tipo. A cada novo acesso, a autenticação deverá ser realizada novamente, de maneira integral.
