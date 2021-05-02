@@ -1,0 +1,35 @@
+1. Introdução 
+1.1 Finalidade Este documento possui como objetivo definir os aspectos da Arquitetura do software Encomenda Ciclística e é direcionado aos stakeholders do software a ser desenvolvido, tais como: Gerentes do Projeto, Clientes e equipe técnica, possuindo grande foco para os Desenvolvedores e a Equipe de implantação.
+
+1.2 Escopo 
+Este documento se baseia no documento de requisitos do Encomendas Ciclísticas para definir os atributos de qualidade a serem priorizados, bem como, os estilos arquiteturais que favorecem tais atributos e as representações das visões arquiteturais e seus sub-produtos.
+
+1.3 Definições, Acrônimos e Abreviações 
+
+Ponto de Vista Arquitetural: Produto resultante da execução de uma Visão Arquitetural. Arquitetura de Software: Forma como os componentes são agrupados com o objetivo de construir um software ou sistema.
+ Trade-Off: Cada arquitetura de software possui seus atributos de qualidade que são favorecidos e desfavorecidos, o trade-off consiste em ter a consciência dessas características para escolher uma arquitetura que favorece os atributos de qualidade priorizados.
+ Atributos de qualidade: São atributos que impactam diretamente na concepção de um software, são definidos conforme a ISO-IEEE 9126.
+RAS: Requisito de Arquitetura de Software.
+HTML: Sigla para Linguagem de Marcação de Hipertexto.
+UML: Sigla para Linguagem de Modelagem Unificada.
+
+
+1.4 Visão Geral
+ Os próximos tópicos descrevem quais serão os requisitos e restrições utilizados para definir a arquitetura a ser implementada, bem como, quais atributos de qualidades serão priorizados e o porquê da escolha. Quais os padrões arquiteturais serão utilizados conforme os atributos de qualidade selecionados e como funcionará o trade-off entre esses padrões arquiteturais, bem como o porquê da escolha dos padrões arquiteturais. Quais e como as visões arquiteturais serão detalhadas e quais os pontos de vista da arquitetura serão utilizados para descrever as visões.
+
+2. Contexto da Arquitetura
+
+2.1 Funcionalidades e Restrições Arquiteturais
+
+
+2.2 Atributos de Qualidades Prioritários
+
+O software a ser desenvolvido realizará interações com o Google Maps, e o entregador da encomenda dependerá do bom funcionamento em tempo real do mapa. Devido a essa característica é necessário implantar um modelo arquitetural que possua a Usabilidade e Eficiência como seus atributos de qualidade.
+
+Outro atributo importante é a confiabilidade, pois como contará com um sistema de cadastramento de cartão de crédito e outros meios para pagar, tanto o cliente quanto o entregador devem confiar de que o sistema não terá problema com as transações.
+
+De acordo com o RNF21, o software deve ser responsivo, portanto necessita-se do atributo de qualidade Portabilidade. 
+
+E assim, definimos os atributos de qualidade a serem priorizados durante o desenvolvimento da arquitetura a ser implementada: Usabilidade e Eficiência,Confiabilidade, Portabilidade.
+
+
