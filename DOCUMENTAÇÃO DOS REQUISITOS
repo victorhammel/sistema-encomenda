@@ -128,7 +128,7 @@ Requisitos de Confiabilidade
 
 Requisitos de Portabilidade
 [RNF09]: O sistema deve funcionar em dispositivos móveis com IOS e Android.
-[RNF31]: O software deve ser responsivo, ou seja, funcionar em diversos tamanhos de tela.
+[RNF21]: O software deve ser responsivo, ou seja, funcionar em diversos tamanhos de tela.
 
 
 Requisitos Não Funcionais Organizacionais
