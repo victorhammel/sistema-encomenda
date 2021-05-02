@@ -128,11 +128,13 @@ Requisitos de Confiabilidade
 
 Requisitos de Portabilidade
 [RNF09]: O sistema deve funcionar em dispositivos móveis com IOS e Android.
+[RNF31]: O software deve ser responsivo, ou seja, funcionar em diversos tamanhos de tela.
 
 
 Requisitos Não Funcionais Organizacionais
 	Requisitos de Entrega
 [RNF10]: O software do mobile terá no máximo uma hora para enviar o email para o usuário com sua senha.
+
 
 Requisitos de Implementação
 [RNF11]:A versão mínima para ser implementado o aplicativo no IOS é a atual e no android é a 5.0.
