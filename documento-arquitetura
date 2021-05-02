@@ -26,7 +26,7 @@ UML: Sigla para Linguagem de Modelagem Unificada.
 
 O software a ser desenvolvido realizará interações com o Google Maps, e o entregador da encomenda dependerá do bom funcionamento em tempo real do mapa. Devido a essa característica é necessário implantar um modelo arquitetural que possua a Usabilidade e Eficiência como seus atributos de qualidade.
 
-Outro atributo importante é a confiabilidade, pois como contará com um sistema de cadastramento de cartão de crédito e outros meios para pagar, tanto o cliente quanto o entregador devem confiar de que o sistema não terá problema com as transações.
+Outro atributo importante é a confiabilidade, pois como contará com um sistema de cadastramento de cartão de crédito e outros meios de pagamento, tanto o cliente quanto o entregador devem confiar no sistema ao realizar as transações.
 
 De acordo com o RNF21, o software deve ser responsivo, portanto necessita-se do atributo de qualidade Portabilidade. 
 
