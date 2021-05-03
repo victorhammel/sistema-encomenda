@@ -32,4 +32,18 @@ De acordo com o RNF21, o software deve ser responsivo, portanto necessita-se do 
 
 E assim, definimos os atributos de qualidade a serem priorizados durante o desenvolvimento da arquitetura a ser implementada: Usabilidade e Eficiência,Confiabilidade, Portabilidade.
 
+2.3 Arquiteturas Escolhidas
 
+Engajando-se em realizar os ensejos que os atributos anteriores produzem. As soluções arquiteturais escolhidas foram:
+
+ Estilo de Microsserviços, para permitir uma maior independência entre os módulos, somada a uma aplicação mais leve.
+ 
+ Táticas arquiteturais para Disponibilidade pretendidas: prevenção, detecção e recuperação de falhas.
+ 
+ Táticas arquiteturais para Desempenho pretendidos: controle de demanda e gerência de recursos.
+ 
+ Táticas arquiteturais para Usabilidade pretendidos: observação e adaptação para maior eficiência e agilidade durante o uso.
+ 
+ Táticas arquiteturais para Portabilidade pretendidas: conexão intercambiável entre ambientes.
+ 
+ 
